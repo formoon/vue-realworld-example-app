@@ -11,7 +11,7 @@ By current setting, development server URL is `http://127.0.0.1:8080/static/inde
 
 In headline, Adding a additional Drop Menu for personal use to provide file upload function, you can remove it in file `/src/components/TheHeader.vue`.  
 
-I have done the most tests with the [Rust-Warp](https://github.com/formoon/realworld-warp) and C++-OATPP backend that I implemented, and it should be better to use with one of them together.  
+I have done the most tests with the [Rust-Warp](https://github.com/formoon/realworld-warp) and [C++-OATPP](https://github.com/formoon/realworld-oatpp) backend that I implemented, and it should be better to use with one of them together.  
 These 2 backend hold static files directly, and automatic redirect `/index.html` request to `/static/index.html`.   
 
 Demo Address: <http://39.105.37.153:8000>  
